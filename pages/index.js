@@ -1,4 +1,3 @@
-// import bag2 from '../public/background/bg.jpg'
 export default function Home() {
   const bag2 = "http://localhost:3000/background/bg.jpg";
   return (
@@ -13,7 +12,6 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        {/* <img src="background/bg.jpg"  className="relative -z-10 w-full h-full opacity-40"/> */}
         <div className="flex justify-center">
           <img
             src="logo/logo_saygon.png"
@@ -82,8 +80,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div
-          id="carouselExampleControls"
+        {/* <div
+          // id="carouselExampleControls"
           className="carousel slide relative m-10"
           data-bs-ride="carousel"
         >
@@ -95,7 +93,7 @@ export default function Home() {
                 alt="Wild Landscape"
               />
             </div>
-            <div class="carousel-item relative float-left w-full">
+            <div className="carousel-item relative float-left w-full">
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
                 className="block w-full"
@@ -134,7 +132,7 @@ export default function Home() {
             ></span>
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> */}
 
         {/* FOOTER */}
         <div>
